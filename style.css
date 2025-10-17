@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    margin-top: 30px;
+    background-color: hsl(148, 38%, 91%); /* Body background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 375px;
+    max-width: 1440px;
+  }
+
+  .container {
+    background-color: #ffffff; /* Container background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 100%;
+    padding-left: 30px;
+  }
+
+  .container > div {
+    margin-bottom: 20px;
+  }
+  
+
+  .inn{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid  hsl(186, 15%, 59%);
+  }
+
+  .pitt{
+    font-size: 15px;
+    color:  hsl(187, 24%, 22%);
+    font-family: DM Sans;
+    font-size: 15px;
+  }
+
+  .thh{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+    height: 43px;
+    border: 1px solid hsl(186, 15%, 59%);
+    font-family: DM sans;
+    color: hsl(187, 24%, 22%);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 16px;
+    padding-top: 1px;
+    cursor: pointer;
+  }
+
+  .msg{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+    resize: none;
+    border: 1px solid hsl(186, 15%, 59%);
+  }
+
+  .checkbox-container {
+    margin-top: 35px;
+    display: flex;
+    align-items: flex-start;
+
+    max-width: 400px;
+  }
+
+  .checkbox-container input[type="checkbox"] {
+    margin-top: 4px;
+  }
+
+  .sub{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: 3px;
+    height: 50px;
+    margin-top: 15px;
+    color: white;
+    background-color: hsl(169, 82%, 27%);
+    border-radius: 5px;
+    font-family: DM sans;
+    font-size: 16px;
+    border: 1px solid;
+    cursor: pointer;
+  }
+
+  .thh input[type="radio"] {
+    margin-right: 10px;
+  }
+
+  .checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    color: hsl(187, 24%, 22%);
+  }
+  .checkbox-label input {
+    margin-top: 8px;
+  }
+  
+
+.hanken-grotesk-uniquifier {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+.dm-sans-uniquifier {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+.epilogue-uniquifier {
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+.karla-uniquifier {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.mobile-version{
+  display: block;
+}
+
+.desktop-version{
+display: none;
+}
+
+@media (min-width: 1024px){
+
+  .mobile-version{
+    display: none;
+  }
+  
+  .desktop-version{
+  display: block;
+  }
+  
+  .container {
+    background-color: #ffffff; /* Container background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 100%;
+    padding-left: 30px;
+  }
+.muss{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.inn{
+  width: 290px;
+}
+.in{
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: 43px;
+  border-radius: 5px;
+  border: 1px solid  hsl(186, 15%, 59%);
+}
+
+.uth{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.thh{
+  width: 290px;
+  max-width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: white;
+  height: 43px;
+  border: 1px solid hsl(186, 15%, 59%);
+  font-family: DM sans;
+  color: hsl(187, 24%, 22%);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 16px;
+  padding-top: 1px;
+  cursor: pointer;
+}
+}
